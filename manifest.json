@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub Actions Graph Enlager",
+  "description": "Make the GitHub actions workflow graph fill the screen",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/actions/runs/*"],
+      "js": ["logic.js"]
+    }
+  ]
+}
