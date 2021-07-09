@@ -1,4 +1,4 @@
-# GitHub project column widener
+# GitHub actions graph enlarger
 Make the GitHub actions workflow graph fill the screen
 
 I have no idea how to make Chrome extensions, but this hack seems to work
